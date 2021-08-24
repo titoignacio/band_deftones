@@ -9,3 +9,14 @@ body{
 
     background-color: black;
 }
+/* navbar*/
+
+.brand-logo{
+
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+
+    width: 150px;
+    height: 20px;
+}
