@@ -9,6 +9,8 @@ body{
 
     background-color: black;
 }
+
+
 /* navbar*/
 
 .brand-logo{
@@ -35,4 +37,10 @@ body{
 
     color: white;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo{
+
+    font-size: 20px;
 }
