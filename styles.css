@@ -132,3 +132,18 @@ body{
 
     width: 110px;
 }
+
+/* pagina discografia */
+
+.subtitulos{
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.parrafos{
+
+    color: white;
+    justify-content: center;
+}
