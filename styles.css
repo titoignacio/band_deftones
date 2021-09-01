@@ -28,7 +28,7 @@ body{
 .image{
 
     width: 300px;
-    height: 300px;
+    height: 330px;
 }
 
 /* article*/
@@ -45,6 +45,14 @@ body{
 .titulo{
 
     font-size: 50px;
+}
+
+.paginationmove{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 /* aside */
@@ -111,4 +119,16 @@ body{
     cursor: pointer;
     
 
+}
+
+/* footer */
+
+.logofoot{
+
+    width: 200px;
+}
+
+.logoreprise{
+
+    width: 110px;
 }
