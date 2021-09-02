@@ -154,3 +154,12 @@ body{
 
     width: 100%;
 }
+
+/* pagina store */
+
+.imgstore{
+
+    width: 100%;
+    margin: 3px;
+    padding: 3px;
+}
