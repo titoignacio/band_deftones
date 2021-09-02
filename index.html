@@ -27,16 +27,28 @@
 
       <!--navbar-->
       <nav>
-        <div class="nav-wrapper nav-fixed blue-grey darken-4">
+        <div class="nav-wrapper nav-fixed blue-grey darken-4 responsive">
           <img src="./img/logodeftones.png" class="brand-logo right "></a>
+          <a href="" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="discografia.html">Discografia</a></li>
+            <li><a href="discografia.html">Discografía</a></li>
             <li><a href="videos.html">Videos</a></li>
             <li><a href="store.html">Store</a></li>
           </ul>
         </div>
       </nav>
+
+      <ul class="sidenav" id="menu-responsive">
+
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="store.html">Store</a></li>
+
+
+      </ul>
 
       <!--fin navbar-->
 
@@ -51,9 +63,9 @@
 
 
       <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#"><img src="/img/carusel1.jpeg" class="image"></a>
-        <a class="carousel-item" href="#"><img src="/img/carusel2.jpeg" class="image"></a>
-        <a class="carousel-item" href="#"><img src="/img/carusel3.jpeg" class="image"></a>
+        <a class="carousel-item" href="#"><img src="/img/carusel1.jpeg" class="image responsive-img"></a>
+        <a class="carousel-item" href="#"><img src="/img/carusel2.jpeg" class="image responsive-img"></a>
+        <a class="carousel-item" href="#"><img src="/img/carusel3.jpeg" class="image responsive-img"></a>
 
       </div>
 
